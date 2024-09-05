@@ -1,0 +1,454 @@
+:root {
+  --color-primary: #50c878;
+  --color-secondry: #f2c94c;
+  --off-white: #f7f7f7;
+  --dark-carcoal: #333333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*--------------about-section---------------------*/
+
+#about {
+  padding: 1.5rem;
+  background-color: var(--off-white);
+}
+
+.container {
+  background-color: var(--off-white);
+  padding: 3rem;
+}
+
+#about .container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+#about .container h1::after {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 2.2rem;
+  left: 38rem;
+}
+
+#about .container h1::before {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 2.2rem;
+  right: 38rem;
+}
+
+#about .container span {
+  color: var(--color-primary);
+}
+
+#about .container p span {
+  font-weight: bold;
+}
+
+#about .container p span b {
+  color: var(--color-primary);
+}
+
+#about .container .about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#about .container p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+#about .image {
+  margin: 2rem;
+  border: 3px solid var(--color-primary);
+  border: 20px solid;
+  border-color: transparent #50c878 transparent #50c878;
+}
+
+/*--------------mission-section---------------------*/
+
+#mission {
+  padding: 1.5rem;
+  background-color: #c0c0c0;
+}
+
+#mission .container {
+  background-color: #c0c0c0;
+  border-radius: 10px;
+}
+
+#mission .container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  color: #58ff8f;
+  position: relative;
+}
+
+#mission .container h2::after {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: #58ff8f;
+  position: absolute;
+  top: 2rem;
+  left: 19rem;
+}
+
+#mission .container h2::before {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  position: absolute;
+  background-color: #58ff8f;
+  top: 2rem;
+  right: 19rem;
+}
+
+#mission .container h5 {
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#mission .mission-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#mission .mission-content .image img {
+  border: transparent #50c878 transparent #50c878;
+  margin: 4rem;
+}
+
+#mission p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+  font-size: 1.6rem;
+}
+
+/*--------------vission-section---------------------*/
+
+#vission {
+  padding: 1.5rem;
+  background-color: var(--off-white);
+}
+
+#vission .container {
+  border-radius: 10px;
+}
+
+#vission .vission-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#vission h2 {
+  color: var(--color-primary);
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+#vission h2::after {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 2rem;
+  left: 42rem;
+}
+
+#vission h2::before {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 2rem;
+  right: 42rem;
+}
+
+#vission h5 {
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#vission p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+  font-size: 1.6rem;
+}
+
+/*--------------history-section---------------------*/
+
+#history {
+  background-color: rgb(202, 201, 201);
+}
+
+#history .container {
+  margin: 1rem 92px;
+  padding: 20px;
+  background-color: rgb(202, 201, 201);
+}
+
+#history .container h1 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  position: relative;
+  color: var(--color-primary);
+  padding: 1rem;
+}
+
+#history .container h1::after {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 1rem;
+  left: 36rem;
+  margin: 1rem;
+}
+#history .container h1::before {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 1rem;
+  right: 36rem;
+  margin: 1rem;
+}
+
+#history .container h5 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+}
+
+#history .h-nav ul {
+  margin: 1rem;
+  list-style-type: none;
+  padding: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#history .h-nav ul a {
+  width: 18rem;
+  margin: 2rem;
+  padding: 1rem 0.7rem;
+  border: 3px solid rgb(82, 82, 82);
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#history .h-nav ul li {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 1rem;
+  color: rgb(27, 27, 27);
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#history .h-nav ul a:hover {
+  border: 4px solid var(--off-white);
+  background-color: var(--color-primary);
+  color: var(--off-white);
+}
+
+#history .h-nav ul li:hover {
+  color: white;
+}
+
+#history .h-nav ul a .active {
+  background-color: var(--color-primary);
+}
+
+#history .history-content {
+  background-color: var(--off-white);
+  border-radius: 10px;
+}
+
+#history .content-section {
+  display: none; /* By default, hide all sections */
+  margin: 20px 2rem;
+}
+
+#history .content-section h4 {
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#history .content-section p {
+  font-size: 1.6rem;
+  padding: 0rem 1rem 2.5rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+#history .content-section .active {
+  display: block; /* Show the active section */
+}
+
+/*----------------counter-secton------------------*/
+
+#counter {
+  padding: 1rem;
+}
+
+#counter .container {
+  margin: 2rem 4rem;
+  padding: 0;
+  background-color: white;
+}
+
+#counter .container h1 {
+  font-size: 2rem;
+  color: var(--color-primary);
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 1rem;
+}
+
+#counter .container h1::after {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 1rem;
+  left: 37rem;
+  margin: 1rem;
+}
+
+#counter .container h1::before {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 1rem;
+  right: 37rem;
+  margin: 1rem;
+}
+
+#counter .container h5 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+}
+
+#counter .container .main-counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+#counter .container .main-counter .content {
+  padding: 2rem;
+}
+
+#counter .content {
+  margin: 3rem;
+  border-left: 2px solid rgb(172, 171, 171);
+}
+
+#counter .container .main-counter .content h2 {
+  font-size: 3.5rem;
+  color: var(--color-primary);
+  padding: 1rem 0rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#counter .container .main-counter .content h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  padding: 0.5rem 0rem;
+}
+
+/*--------------award-section---------------------*/
+
+#card-awards {
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-award:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3), 0 15px 25px rgba(0, 0, 0, 0.22);
+}
+
+#card-awards h2 {
+  color: var(--color-primary);
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+#card-awards .images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+
+#card-award .images .card {
+  border: 3px solid var(--color-primary);
+}

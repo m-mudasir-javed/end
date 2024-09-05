@@ -1,0 +1,179 @@
+:root {
+  --color-primary: #50c878;
+  --color-secondry: #f2c94c;
+  --off-white: #f7f7f7;
+  --dark-carcoal: #333333;
+  --font-family-1: "Montserrat", sans-serif;
+  --font-family: "Open Sans", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*-------------contact----------------*/
+
+#contact {
+  padding: 1rem;
+}
+
+#contact .info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+
+#contact .info .con-info {
+  padding: 0rem 2rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#contact .info .con-info h1 {
+  font-size: 4rem;
+  font-family: var(--font-family-1);
+  color: var(--color-primary);
+  padding: 1rem;
+}
+
+#contact .info .con-info p {
+  font-size: 1.6rem;
+  font-family: var(--font-family);
+  padding: 0rem 0rem 1rem 1rem;
+  color: #333333;
+}
+
+#contact .info .con-info p span {
+  font-weight: bold;
+  color: #333333;
+}
+
+#contact .info .con-info p a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+#contact .info .con-info ul li span {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+#contact .info .con-info ul {
+  padding: 1rem 2rem;
+}
+
+#contact .info .con-info ul li {
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+#contact .info .con-info ul li a {
+  color: var(--color-primary);
+}
+
+#contact .info .con-info h3 {
+  font-family: var(--font-family-1);
+  font-size: 3rem;
+  padding: 2rem 0rem 2rem 0rem;
+  color: var(--color-primary);
+}
+
+#contact .info .con-info #map {
+  width: 100%;
+  height: 20vh;
+}
+
+/*----------con-form-----------*/
+
+#contact .info .con-form {
+  width: 50%;
+  margin: 1rem;
+}
+
+#contact .info .con-form h1 {
+  font-size: 4rem;
+  font-family: var(--font-family-1);
+  color: var(--color-primary);
+  padding: 1rem 0rem;
+}
+
+#contact .info .con-form p {
+  font-size: 1.8rem;
+  color: #333333;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+}
+
+#contact .info .con-form input {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1.3rem;
+  border-radius: 10px;
+  border: 1px solid var(--dark-carcoal);
+  margin: 1rem 0rem;
+}
+
+#contact .info .con-form textarea {
+  font-family: var(--font-family-1);
+  height: 30vh;
+  text-align: left;
+  width: 100%;
+  padding: 1.3rem;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 1px solid var(--dark-carcoal);
+  margin: 1rem 0rem;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+#contact .info .con-form #massage {
+  width: 100vw;
+  height: 30vh;
+}
+
+#contact .info .con-form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  margin: 1rem;
+  border: 3px solid var(--color-primary);
+  transition: 0.5s;
+  font-size: 2rem;
+  color: var(--off-white);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#contact .info .con-form button:hover {
+  background-color: var(--off-white);
+  border: 3px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+#map {
+  padding: 2rem 3rem;
+}
+
+#map .container {
+  width: 100%;
+}
+
+/*-------------media qries--------------*/
+
+@media (max-width: 700px) {
+}
